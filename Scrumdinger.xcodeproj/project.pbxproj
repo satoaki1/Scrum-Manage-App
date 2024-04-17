@@ -15,6 +15,10 @@
 		4F2D91022BCF6A1E00EFD2FB /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D91012BCF6A1E00EFD2FB /* ScrumdingerTests.swift */; };
 		4F2D910C2BCF6A1E00EFD2FB /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D910B2BCF6A1E00EFD2FB /* ScrumdingerUITests.swift */; };
 		4F2D910E2BCF6A1E00EFD2FB /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D910D2BCF6A1E00EFD2FB /* ScrumdingerUITestsLaunchTests.swift */; };
+		4F2D911C2BCF758700EFD2FB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D911B2BCF758700EFD2FB /* Theme.swift */; };
+		4F2D911E2BCF762800EFD2FB /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D911D2BCF762800EFD2FB /* DailyScrum.swift */; };
+		4F2D91202BCF78E500EFD2FB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D911F2BCF78E500EFD2FB /* CardView.swift */; };
+		4F2D91222BCF82B600EFD2FB /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D91212BCF82B600EFD2FB /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		4F2D91072BCF6A1E00EFD2FB /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2D910B2BCF6A1E00EFD2FB /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		4F2D910D2BCF6A1E00EFD2FB /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F2D911B2BCF758700EFD2FB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		4F2D911D2BCF762800EFD2FB /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		4F2D911F2BCF78E500EFD2FB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4F2D91212BCF82B600EFD2FB /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +104,13 @@
 		4F2D90ED2BCF6A1B00EFD2FB /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				4F2D911A2BCF757900EFD2FB /* Models */,
 				4F2D90EE2BCF6A1B00EFD2FB /* ScrumdingerApp.swift */,
 				4F2D90F02BCF6A1B00EFD2FB /* MeetingView.swift */,
 				4F2D90F22BCF6A1B00EFD2FB /* Item.swift */,
 				4F2D90F42BCF6A1D00EFD2FB /* Assets.xcassets */,
 				4F2D90F62BCF6A1D00EFD2FB /* Preview Content */,
+				4F2D911F2BCF78E500EFD2FB /* CardView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -128,6 +138,16 @@
 				4F2D910D2BCF6A1E00EFD2FB /* ScrumdingerUITestsLaunchTests.swift */,
 			);
 			path = ScrumdingerUITests;
+			sourceTree = "<group>";
+		};
+		4F2D911A2BCF757900EFD2FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D91212BCF82B600EFD2FB /* TrailingIconLabelStyle.swift */,
+				4F2D911B2BCF758700EFD2FB /* Theme.swift */,
+				4F2D911D2BCF762800EFD2FB /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2D911E2BCF762800EFD2FB /* DailyScrum.swift in Sources */,
 				4F2D90F12BCF6A1B00EFD2FB /* MeetingView.swift in Sources */,
+				4F2D911C2BCF758700EFD2FB /* Theme.swift in Sources */,
 				4F2D90F32BCF6A1B00EFD2FB /* Item.swift in Sources */,
+				4F2D91202BCF78E500EFD2FB /* CardView.swift in Sources */,
 				4F2D90EF2BCF6A1B00EFD2FB /* ScrumdingerApp.swift in Sources */,
+				4F2D91222BCF82B600EFD2FB /* TrailingIconLabelStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
