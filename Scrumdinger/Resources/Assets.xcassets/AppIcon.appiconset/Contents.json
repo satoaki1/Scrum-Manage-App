@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "DALL·E 2024-04-18 16.57.33 - Design an app icon for a daily scrum meeting. The icon should be colorful and modern, featuring a stylized clock to symbolize time management and a fe.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
