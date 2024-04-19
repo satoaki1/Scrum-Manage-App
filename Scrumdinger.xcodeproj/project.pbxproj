@@ -21,6 +21,7 @@
 		4F2D91222BCF82B600EFD2FB /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D91212BCF82B600EFD2FB /* TrailingIconLabelStyle.swift */; };
 		4F2D91242BCFA27700EFD2FB /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D91232BCFA27700EFD2FB /* ScrumsView.swift */; };
 		4FB755AD2BD11960008808B5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB755AC2BD11960008808B5 /* DetailView.swift */; };
+		4FEFC9202BD2189C008A8B77 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFC91F2BD2189C008A8B77 /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		4F2D91212BCF82B600EFD2FB /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		4F2D91232BCFA27700EFD2FB /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		4FB755AC2BD11960008808B5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4FEFC91F2BD2189C008A8B77 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				4F2D90F02BCF6A1B00EFD2FB /* MeetingView.swift */,
 				4F2D911F2BCF78E500EFD2FB /* CardView.swift */,
 				4FB755AC2BD11960008808B5 /* DetailView.swift */,
+				4FEFC91F2BD2189C008A8B77 /* DetailEditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				4F2D91242BCFA27700EFD2FB /* ScrumsView.swift in Sources */,
 				4F2D90F32BCF6A1B00EFD2FB /* Item.swift in Sources */,
 				4F2D91202BCF78E500EFD2FB /* CardView.swift in Sources */,
+				4FEFC9202BD2189C008A8B77 /* DetailEditView.swift in Sources */,
 				4F2D90EF2BCF6A1B00EFD2FB /* ScrumdingerApp.swift in Sources */,
 				4F2D91222BCF82B600EFD2FB /* TrailingIconLabelStyle.swift in Sources */,
 			);
